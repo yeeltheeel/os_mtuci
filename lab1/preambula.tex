@@ -1,0 +1,126 @@
+\documentclass[a4paper, 14pt]{extreport}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float}
+\usepackage{tempora}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{placeins}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage[figure,table]{totalcount}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{tocloft}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{pgfplots}
+\usepackage{tikz}
+
+%
+
+\lstdefinestyle{python}{
+	language=Python, 
+	basicstyle=\ttfamily\footnotesize,
+	keywordstyle=\color{blue},
+	stringstyle=\color{red},
+	commentstyle=\color{gray},
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	numbersep=5pt,
+	frame=single,
+	tabsize=4,
+	captionpos=b,
+	breaklines=true,
+	breakatwhitespace=true,
+}
+\lstset{style=python}
+
+%
+
+\geometry{left=25mm}
+\geometry{right=20mm}
+\geometry{top=20mm}
+\geometry{bottom=25mm}
+
+\newcommand{\ssr}[1]{\begin{center}
+		\LARGE\bfseries{#1}
+	\end{center} \addcontentsline{toc}{chapter}{#1}  }
+
+\makeatletter
+\renewcommand\LARGE{\@setfontsize\LARGE{20pt}{20}}
+\renewcommand\Large{\@setfontsize\Large{18pt}{20}}
+\renewcommand\large{\@setfontsize\large{16pt}{20}}
+\makeatother
+\RequirePackage{titlesec}
+\titleformat{\chapter}[block]{\hspace{\parindent}\large\bfseries}{\thechapter}{0.5em}{\Large\bfseries\raggedright}
+\titleformat{name=\chapter,numberless}[block]{\hspace{\parindent}}{}{0pt}{\Large\bfseries\centering}
+\titleformat{\section}[block]{\hspace{\parindent}\large\bfseries}{\thesection}{0.5em}{\large\bfseries\raggedright}
+\titleformat{\subsection}[block]{\hspace{\parindent}\large\bfseries}{\thesubsection}{0.5em}{\large\bfseries\raggedright}
+\titleformat{\subsubsection}[block]{\hspace{\parindent}\large\bfseries}{\thesubsection}{0.5em}{\large\bfseries\raggedright}
+\titlespacing{\chapter}{12.5mm}{-22pt}{10pt}
+\titlespacing{\section}{12.5mm}{10pt}{10pt}
+\titlespacing{\subsection}{12.5mm}{10pt}{10pt}
+\titlespacing{\subsubsection}{12.5mm}{10pt}{10pt}
+
+\renewcommand{\contentsname}{\large\bfseries}
+
+\graphicspath{{assets/}}
+\lstset{inputpath=assets/} 
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{\arabic{enumi}\text{)}}
+\renewcommand{\theenumii}{.\arabic{enumii}}
+\renewcommand{\labelenumii}{\asbuk{enumii}\text{)}}
+\renewcommand{\theenumiii}{.\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
+\DeclareCaptionLabelSeparator{dash}{~---~}
+\captionsetup{labelsep=dash}
+
+\addto\captionsrussian{\renewcommand{\lstlistingname}{Листинг}}
+\addto\captionsrussian{\renewcommand{\lstlistlistingname}{Список листингов}}
+\captionsetup[lstlisting]{
+	labelsep=dash,
+	justification=raggedright,
+	singlelinecheck=false
+}
+
+\captionsetup[figure]{justification=centering,labelsep=dash}
+\captionsetup[table]{labelsep=dash,justification=raggedleft,singlelinecheck=off}
+
+\newcommand{\floor}[1]{\lfloor #1 \rfloor}
+
+\pgfplotsset{width=0.85\linewidth, height=0.5\columnwidth}
+
+\linespread{1}
+\parindent=1cm
+
+\def\labelitemi{---}
+%\setlist[itemize]{leftmargin=1.25cm, itemindent=0.65cm}
+%\setlist[enumerate]{leftmargin=1.25cm, itemindent=0.55cm}
+
+\newcommand{\specialcell}[2][c]{
+	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}
+}
+
+\newcommand{\chap}[1]{
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+	\markboth{#1}{#1} 
+}
+
+\newcommand{\sect}[1]{
+	\section*{#1}
+	\addcontentsline{toc}{section}{#1}
+	\markboth{#1}{#1} 
+}
+
+\frenchspacing

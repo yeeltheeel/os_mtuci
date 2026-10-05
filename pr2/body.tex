@@ -1,0 +1,256 @@
+\ssr{Введение}
+
+Цели данной лабораторной работы:
+\begin{enumerate}
+	\item изучить этапы загрузки операционных систем семейства GNU/Linux;
+	\item освоить методы анализа процесса загрузки;
+	\item получить навыки настройки параметров загрузчика, диагностики проблем и оптимизации времени старта системы.
+\end{enumerate}
+
+\ssr{Выполнение}
+
+\ssection{Задание 1. Карта загрузки системы}
+
+Цель: понять последовательность этапов загрузки Linux, определить основные компоненты и проанализировать параметры, переданные ядру.
+
+Задачи
+\begin{enumerate}
+	\item определить систему инициализации;
+	\item изучить параметры загрузки ядра и объяснить их назначение;
+	\item оценить время загрузки;
+	\item посмотреть загруженные модули ядра.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-50-32"}
+	\caption{Вывод по заданию 1}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+	\centering
+	%\includesvg[width=0.6\linewidth]{boot}
+	\caption{boot.svg}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{Перечислите этапы загрузки в правильном порядке (от включения питания до появления приглашения входа).}\newline 
+	\item \textit{Какой процесс запускается первым после ядра? Какова его роль?}\newline 
+	\item \textit{Сколько времени заняла загрузка вашей системы (kernel + userspace)?}\newline 
+	\item \textit{Запишите содержимое /proc/cmdline. Что означают параметры quiet, splash, ro? Какой UUID у вашей корневой файловой системы? Зачем используется UUID вместо имени устройства (например, /dev/sda1)?}\newline 
+	\item \textit{Какие модули ядра загружены первыми? (из вывода lsmod)}\newline 
+\end{enumerate}
+
+\ssection{Задание 2. Исследование загрузчика GRUB}
+
+Цель: изучить конфигурацию загрузчика GRUB, научиться находить доступные ядра и параметры загрузки.
+
+Задачи
+\begin{enumerate}
+	\item понять структуру конфигурационного файла GRUB;
+	\item определить все доступные пункты меню (включая подменю);
+	\item определить настройки по умолчанию.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-54-28"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-54-57"}	
+	\caption{Вывод по заданию 2}
+\end{figure}
+\FloatBarrier
+\clearpage
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-55-20"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-56-43"}
+	\caption{Вывод по заданию 2}
+\end{figure}
+\FloatBarrier
+%\clearpage
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-58-08"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-59-52"}
+	\caption{Вывод по заданию 2}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{Сколько различных пунктов меню (включая подменю) вы обнаружили в файле grub.cfg?}\newline 
+	\item \textit{Сколько ядер доступно для загрузки в вашей системе? Укажите их версии.}\newline 
+	\item \textit{Какое ядро загружается по умолчанию? Как это определено в /etc/default/grub?}\newline 
+	\item \textit{Какой параметр в файле /etc/default/grub отвечает за время отображения меню? Какое значение установлено у вас?}\newline 
+	\item \textit{Что произойдет, если установить GRUB\_TIMEOUT=0?}\newline  
+\end{enumerate}
+
+\ssection{Задание 3. Анализ времени загрузки}
+
+Цель: научиться определять, какие службы замедляют старт системы.
+
+Задачи
+\begin{enumerate}
+	\item получить общее время загрузки;
+	\item найти самые «медленные» сервисы;
+	\item построить цепочку критических зависимостей.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Вывод по заданию 3}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{Какой сервис грузится дольше всех? Сколько времени это занимает?}\newline 
+	\item \textit{Что означает состояние active (running) у сервиса?}\newline 
+	\item \textit{Какой target отвечает за графический интерфейс? Как проверить, активен ли он?}\newline 
+	\item \textit{Как переключиться в текстовый режим без перезагрузки?}\newline 
+\end{enumerate}
+
+\ssection{Задание 4. Исследование Initramfs}
+
+Цель: понять назначение временной корневой файловой системы (initramfs).
+
+Задачи
+\begin{enumerate}
+	\item найти файл initramfs для текущего ядра;
+	\item оценить его размер и дату создания;
+	\item изучить содержимое initramfs.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Вывод по заданию 4}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{Какой размер у вашего initramfs? (в мегабайтах)}\newline 
+	\item \textit{Для чего нужен initramfs?}\newline 
+	\item \textit{Какие драйверы (модули) присутствуют в initramfs? Приведите 2–3 примера.}\newline 
+	\item \textit{Что произойдёт, если удалить initramfs?}\newline 
+\end{enumerate}
+
+\ssection{Задание 5. Мониторинг процесса загрузки (логи)}
+
+Цель: научиться читать и анализировать сообщения, генерируемые при загрузке.
+
+Задачи
+\begin{enumerate}
+	\item просмотреть логи текущей загрузки;
+	\item найти сообщения ядра;
+	\item обнаружить возможные ошибки.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Вывод по заданию 5}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{В какое время началась текущая загрузка системы?}\newline 
+	\item \textit{Были ли ошибки при загрузке? Если да, то какие?}\newline 
+	\item \textit{Какой сервис, судя по логам, запустился первым? (после ядра)}\newline 
+\end{enumerate}
+
+\ssection{Задание 6. Сравнение состояний системы}
+
+Цель: проанализировать состояние уже загруженной системы.
+
+Задачи
+\begin{enumerate}
+	\item подсчитать загруженные модули ядра;
+	\item посмотреть смонтированные файловые системы;
+	\item изучить сетевые интерфейсы и запущенные процессы.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Вывод по заданию 6}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{Сколько модулей ядра загружено в системе?}\newline 
+	\item \textit{Какая файловая система используется для корневого каталога (`/`)?}\newline 
+	\item \textit{Какие сетевые интерфейсы активны? Есть ли у них IP-адреса?}\newline 
+	\item \textit{Сколько процессов работает в системе? (примерно)}\newline 
+\end{enumerate}
+
+\ssection{Задание 7. Эксперимент с уровнями выполнения (targets)}
+
+Цель: понять разницу между различными состояниями системы в systemd.
+
+Задачи
+\begin{enumerate}
+	\item изучить доступные targets;
+	\item узнать текущий target по умолчанию;
+	\item сравнить multi-user.target и graphical.target.
+\end{enumerate}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Вывод по заданию 7}
+\end{figure}
+\FloatBarrier
+
+Вопросы для отчета:
+\begin{enumerate}
+	\item \textit{В каком target работает ваша система сейчас?}\newline 
+	\item \textit{Какие сервисы есть в graphical.target, но отсутствуют в multi-user.target?}\newline 
+	\item \textit{Как переключиться в текстовый режим (multi-user) без перезагрузки?}\newline 
+	Выполнить команду (с предупреждением о закрытии графических приложений): sudo systemctl isolate multi-user.target
+\end{enumerate}
+
+%\ssection{Дополнительное задание}
+
+\ssr{Вывод}
+
+В ходе лабораторной работы были:
+\begin{itemize}
+	\item изучены этапы загрузки операционных систем семейства GNU/Linux;
+	\item освоены методы анализа процесса загрузки;
+	\item получены навыки настройки параметров загрузчика, диагностики проблем и оптимизации времени старта системы.
+\end{itemize}
+
+\ssr{Контрольные вопросы}
+
+\begin{enumerate}
+	\item \textit{Назовите основные этапы загрузки Linux.}\newline 
+	BIOS/UEFI $\rightarrow$ GRUB $\rightarrow$ ядро $\rightarrow$ initramfs $\rightarrow$ systemd $\rightarrow$ target $\rightarrow$ приглашение входа.
+	\item \textit{В чём различие между BIOS и UEFI?}\newline 
+	BIOS использует MBR (первый сектор диска), UEFI использует GPT и раздел ESP с файлами .efi. UEFI поддерживает Secure Boot, большие диски, быстрее загружается.
+	\item \textit{Какова роль GRUB в процессе загрузки?}\newline 
+	Загрузка ядра и initramfs, передача параметров ядру, предоставление меню выбора ОС/ядра.
+	\item \textit{Что такое initramfs и для чего он нужен?}\newline 
+	Временная ФС с драйверами и утилитами для монтирования реального корня. Нужна для загрузки драйверов, не встроенных в ядро.
+	\item \textit{Какая информация содержится в файле /proc/cmdline?}\newline 
+	Параметры, переданные ядру загрузчиком.
+	\item \textit{Как узнать, какая система инициализации используется?}\newline 
+	Команда ps -p 1 -o comm=.
+	\item \textit{Перечислите основные команды systemd-analyze.}\newline 
+	time (общее время), blame (время по сервисам), critical-chain (критическая цепочка), plot > boot.svg (график).
+	\item \textit{Как посмотреть логи только текущей загрузки?}\newline 
+	Команда journalctl -b.
+	\item \textit{Что такое target в systemd? Приведите примеры.}\newline 
+	Целевое состояние системы. Примеры: multi-user.target (без графики), graphical.target (с графикой), rescue.target (восстановление), reboot.target, poweroff.target.
+	\item \textit{Как добавить параметр ядра временно (при загрузке) и постоянно?}\newline 
+	Временно: в меню GRUB нажать e, добавить параметр в строку linux, загрузиться. Постоянно: добавить в GRUB\_CMDLINE\_LINUX\_DEFAULT в /etc/default/grub, затем sudo update-grub.
+\end{enumerate}

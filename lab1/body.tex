@@ -1,0 +1,210 @@
+\chap{Введение}
+
+Цели данной лабораторной работы:
+\begin{enumerate}
+	\item получить представление о составе дистрибутивов Linux;
+	\item приобрести практические навыки установки и запуска дистрибутива Linux в виртуальной машине Oracle VM VirtualBox, получения справочной информации о системе и установленных приложениях с помощью интерфейса командной строки.
+\end{enumerate}
+
+\chap{Выполнение}
+
+\sect{Задание 1}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-22-47"}
+	\caption{Терминал запущенной виртуальной машины}
+\end{figure}
+\FloatBarrier
+
+\sect{Задание 2}
+
+Обновление списка пакетов. 
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-22-01"}
+	\caption{Список пакетов, имеющих обновление (update)}
+\end{figure}
+\FloatBarrier
+
+%Занесите в отчет количество пакетов, подлежащих обновлению, сколько места для этого потребуется? Определите, какие репозитории используются для обновления. Объясните, почему, прежде чем выполнять фактическое обновление, важно проанализировать информацию о репозитории и размере обновления.
+
+Для обновления доступно 9 пакетов, требуется 3Мб места на диске. Прежде чем выполнять фактическое обновление, важно проанализировать информацию о репозитории и размере обновления, так как для скачивания и установки используются ресурсы системы, а без них обновление невозможно.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-22-32"}
+	\caption{Список пакетов, имеющих обновление (upgrade)}
+\end{figure}
+\FloatBarrier
+
+Обновление системы.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-24-24"}
+	\caption{Подтверждение обновления системы}
+\end{figure}
+\FloatBarrier
+
+Вывод информации о дистрибутиве: версия операционной системы, версия ядра. 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-21 15-35-04"}
+	\caption{Информация о дистрибутиве}
+\end{figure}
+\FloatBarrier
+
+Вывод информации о модели процессора, количестве ядер процессора, объеме оперативной памяти.
+\clearpage
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-32-40"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-33-13"}
+	\caption{Информация о технических характеристиках устройства}
+\end{figure}
+\FloatBarrier
+
+Вывод команды uname -a. 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-21 15-23-42"}
+	\caption{Вывод команды uname -a}
+\end{figure}
+\FloatBarrier
+%В отчете приведите разбор полученного вывода.
+Разбор полученного вывода:
+\begin{itemize}
+	\item Linux -- тип ядра;
+	\item elanskaya -- имя пользователя;
+	\item 7.0.0 -- версия ядра;
+	\item 31 -- номер сборки;
+	\item generic -- тип сборки;
+	\item \#31-Ubuntu -- номер сборки;
+	\item SMP -- поддержка многопроцессорности;
+	\item PREEMPT\_DYNAMIC -- режим вытеснения;
+	\item Sat Aug  1 04:26:38 UTC 2026 -- дата компиляции ядра;
+	\item x86\_64 -- тип архитектуры;
+	\item GNU/Linux -- тип ОС.
+\end{itemize}
+
+Вывод системы инициализации используется в этом дистрибутиве Linux.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-48-39"}
+	\caption{Команда вывода названия системы инициализации}
+\end{figure}
+\FloatBarrier
+Список доступных репозиториев для системы.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-23 12-57-10"}
+	\caption{Список доступных репозиториев}
+\end{figure}
+\FloatBarrier
+
+Установка на виртуальную машину файлового менеджера Midnight Commander и текстового редактора Vim.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-38-45"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-40-19"}
+	\caption{Установка Vim и MC}
+\end{figure}
+\FloatBarrier
+
+Список установленных программ (Midnight Commander и Vim в нем появились).
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-21 16-00-11"}
+	\caption{Список установленных программ}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-21 15-18-02"}
+	\caption{Открытый текстовый редактор Vim}
+\end{figure}
+\FloatBarrier
+
+Получение информации, из какого репозитория был установлен пакет.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-23 13-06-46"}
+	\caption{Вывод названия репозитория}
+\end{figure}
+\FloatBarrier
+
+Место расположения исполняемых файлов установленного программного обеспечения.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-23 13-00-11"}
+	\caption{Место расположения исполняемых файлов}
+\end{figure}
+\FloatBarrier
+
+Вывод зависимостей Midnight Commander.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-09 13-50-34"}
+	\caption{Вывод зависимостей MC}
+\end{figure}
+\FloatBarrier
+
+\sect{Дополнительное задание}
+
+В качестве DEB-дистрибутива расссматривалась Ubuntu 26.04, в качестве RPM-дистрибутива -- Fedora 44.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-09-23 14-00-27"}
+	\caption{Рабочий стол Fedora}
+\end{figure}
+\FloatBarrier
+
+\begin{table}[!htbp]
+	\caption{Сравнение дистрибутивов}
+	\begin{tabularx}{\textwidth}{|p{7cm}|X|X|}
+		\hline
+		& \textbf{DEB-дистрибутив} & \textbf{RPM-дистрибутив} \\\hline
+		Пакетный менеджер (основной) & apt & dnf/yum \\\hline
+		Низкоуровневый пакетный менеджер & dpkg & rpm\\\hline
+		Формат пакетов & .deb & .rpm \\\hline
+		Обновление системы & sudo apt update & sudo dnf upgrade\\\hline
+		Установка пакета & sudo apt install <pkg> & sudo dnf install <pkg>\\\hline
+		Список установленных пакетов & dpkg -l & rpm -qa\\\hline
+		Список репозиториев & /etc/apt/sources.list & /etc/yum.repos.d\\\hline
+		Зависимости пакета & apt show <pkg> & dnf info <pkg>\\\hline
+	\end{tabularx}
+\end{table}
+
+%\lstinputlisting[style=python, caption={}]{}
+
+\chap{Вывод}
+
+В ходе лабораторной работы:
+\begin{itemize}
+	\item было получено представление о составе дистрибутивов Linux
+	\item были приобретены практические навыки установки и запуска; дистрибутива Linux в виртуальной машине Oracle VM VirtualBox, получения справочной информации о системе и установленных приложениях с помощью интерфейса командной строки.
+\end{itemize} 
+
+\chap{Контрольные вопросы}
+
+\begin{enumerate}
+	\item \textit{Что такое дистрибутив? Состав дистрибутива.}\newline 
+	Форма распространения системного программного обеспечения. Обычно содержит программу для начальной инициализации системы, программу-установщик и набор специальных файлов, содержащих отдельные части системы.
+	\item \textit{Функции ядра операционной системы.}\newline 
+	Взаимодействие с аппаратным обеспечением, распределение оперативной памяти, управление процессами, работа с файловыми системами.
+	\item \textit{Классическая и микроядерная архитектуры ОС.}\newline 
+	У классической больший функционал, высокая производительность, но меньшая надежность; у микроядерной минимальный функционал, меньшая производительность, но более высокая надежность благоларя изолированности.
+	\item \textit{Дайте определение, что такое репозиторий. Что в них хранится?}\newline 
+	Централизованные, доверенные источники ПО, обеспечивающие безопасность и стабильность. Хранит пакеты и их индексы.
+	\item \textit{Как получить список доступных сторонних репозиториев?}\newline 
+	Просмотреть содержимое sources.list.
+	\item \textit{Назначение и функции пакетных менеджеров apt и dpkg.}\newline 
+	Apt пакетный менеджер верхнего уровня, имеет выход в сеть для проверки и скачивания обновлений; dpkg пакетный менеджер низкого уровня, устанавливает пакеты.
+	\item \textit{Что происходит при выполнении apt update и apt upgrade?}\newline 
+	Apt update проверяет наличие обновлений в удаленном репозитории, apt upgrade скачивает и уставливает их.
+	\item \textit{Что такое зависимости пакета и как APT их разрешает?}\newline 
+	Зависимости (depends) -- это другие пакеты, необходимые для работы данного пакета. Apt читает метаданные пакета, проверяет установленные версии и загружает недостающие необходимые пакеты.
+\end{enumerate}
