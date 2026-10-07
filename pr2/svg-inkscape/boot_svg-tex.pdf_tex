@@ -1,0 +1,674 @@
+%% Creator: Inkscape 1.4.2 (f4327f4, 2025-05-13), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'boot_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1468.5bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,3.07967314)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{boot_svg-tex.pdf}}%
+    \put(0.0102145,3.05413687){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Startup finished in 3.538s (kernel) + 3.134s (initrd) + 5.248s (userspace) = 11.921s graphical.target reached after 5.246s in userspace.\end{tabular}}}}%
+    \put(0.0102145,3.06435138){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ubuntu 26.04.1 LTS elanskaya (Linux 7.0.0-31-generic \#31-Ubuntu SMP PREEMPT\_DYNAMIC Sat Aug 1 04:26:38 UTC 2026) x86-64 vmware\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{boot_svg-tex.pdf}}%
+    \put(0.0102145,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{boot_svg-tex.pdf}}%
+    \put(0.06128703,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{boot_svg-tex.pdf}}%
+    \put(0.11235955,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{boot_svg-tex.pdf}}%
+    \put(0.16343207,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{boot_svg-tex.pdf}}%
+    \put(0.2145046,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{boot_svg-tex.pdf}}%
+    \put(0.26557712,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{boot_svg-tex.pdf}}%
+    \put(0.31664964,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{boot_svg-tex.pdf}}%
+    \put(0.36772217,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{boot_svg-tex.pdf}}%
+    \put(0.41879469,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{boot_svg-tex.pdf}}%
+    \put(0.46986721,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}9.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{boot_svg-tex.pdf}}%
+    \put(0.52093973,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{boot_svg-tex.pdf}}%
+    \put(0.57201226,3.03115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}11.0s\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{boot_svg-tex.pdf}}%
+    \put(0.01276813,3.02145046){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}kernel\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{boot_svg-tex.pdf}}%
+    \put(0.19350818,3.01123596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{boot_svg-tex.pdf}}%
+    \put(0.20497242,3.00102145){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}system.slice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{boot_svg-tex.pdf}}%
+    \put(0.20497293,2.99080695){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}init.scope\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{boot_svg-tex.pdf}}%
+    \put(0.20497293,2.98059244){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-.slice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{boot_svg-tex.pdf}}%
+    \put(0.20714504,2.97037794){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-usr-fs.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{boot_svg-tex.pdf}}%
+    \put(0.20756741,2.96016343){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-journald-dev-log.socket (136us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{boot_svg-tex.pdf}}%
+    \put(0.20768336,2.94994893){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-journald.socket (81us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{boot_svg-tex.pdf}}%
+    \put(0.20790449,2.93973442){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-udevd-kernel.socket (50us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{boot_svg-tex.pdf}}%
+    \put(0.21110776,2.92951992){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dracut-cmdline.service (70ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{boot_svg-tex.pdf}}%
+    \put(0.21482636,2.91930541){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dracut-pre-udev.service (29ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{boot_svg-tex.pdf}}%
+    \put(0.25753627,2.90909091){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dracut-initqueue.service (1.300s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{boot_svg-tex.pdf}}%
+    \put(0.25962615,2.8988764){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-module-configfs.device (3.991s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{boot_svg-tex.pdf}}%
+    \put(0.25966497,2.8886619){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}system-modprobe.slice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{boot_svg-tex.pdf}}%
+    \put(0.25998059,2.8784474){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-module-fuse.device (4.016s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{boot_svg-tex.pdf}}%
+    \put(0.26129775,2.86823289){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-ttyS1.device (4.079s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{boot_svg-tex.pdf}}%
+    \put(0.26129775,2.85801839){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-platform-serial8250-serial8250:0-serial8250:0.1-tty-ttyS1.device (4.079s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{boot_svg-tex.pdf}}%
+    \put(0.26142799,2.84780388){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-ttyS2.device (4.076s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{boot_svg-tex.pdf}}%
+    \put(0.26142799,2.83758938){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-platform-serial8250-serial8250:0-serial8250:0.2-tty-ttyS2.device (4.076s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{boot_svg-tex.pdf}}%
+    \put(0.26155413,2.82737487){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-platform-serial8250-serial8250:0-serial8250:0.0-tty-ttyS0.device (4.062s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{boot_svg-tex.pdf}}%
+    \put(0.26155464,2.81716037){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-ttyS0.device (4.062s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{boot_svg-tex.pdf}}%
+    \put(0.26205873,2.80694586){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-ttyS3.device (4.065s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{boot_svg-tex.pdf}}%
+    \put(0.26205924,2.79673136){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-platform-serial8250-serial8250:0-serial8250:0.3-tty-ttyS3.device (4.065s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{boot_svg-tex.pdf}}%
+    \put(0.26247856,2.78651685){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-tty-ttyprintk.device (4.059s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{boot_svg-tex.pdf}}%
+    \put(0.26247906,2.77630235){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-ttyprintk.device (4.059s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{boot_svg-tex.pdf}}%
+    \put(0.28750919,2.76608784){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-misc-rfkill.device (7.099s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{boot_svg-tex.pdf}}%
+    \put(0.28751022,2.75587334){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-rfkill.device (7.099s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{boot_svg-tex.pdf}}%
+    \put(0.28809501,2.74565884){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-fd0.device (3.547s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{boot_svg-tex.pdf}}%
+    \put(0.28809501,2.73544433){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-platform-floppy.0-block-fd0.device (3.547s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{boot_svg-tex.pdf}}%
+    \put(0.29225537,2.72522983){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-sda.device (3.476s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{boot_svg-tex.pdf}}%
+    \put(0.29225637,2.71501532){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-18.device (3.476s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{boot_svg-tex.pdf}}%
+    \put(0.29225637,2.70480082){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0.device (3.476s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{boot_svg-tex.pdf}}%
+    \put(0.2922569,2.69458631){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-pci0000:00-0000:00:10.0-host2-target2:0:0-2:0:0:0-block-sda.device (3.476s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{boot_svg-tex.pdf}}%
+    \put(0.2929622,2.68437181){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-sda1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=48]{boot_svg-tex.pdf}}%
+    \put(0.2929622,2.6741573){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=49]{boot_svg-tex.pdf}}%
+    \put(0.2929622,2.6639428){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-pci0000:00-0000:00:10.0-host2-target2:0:0-2:0:0:0-block-sda-sda1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=50]{boot_svg-tex.pdf}}%
+    \put(0.2929627,2.65372829){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart-by\\x2dpartnum-1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=51]{boot_svg-tex.pdf}}%
+    \put(0.2929627,2.64351379){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart-by\\x2dpartuuid-8474a6b0\\x2d2198\\x2d49bc\\x2db8af\\x2da7132ece02b1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=52]{boot_svg-tex.pdf}}%
+    \put(0.2929627,2.63329928){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpartuuid-8474a6b0\\x2d2198\\x2d49bc\\x2db8af\\x2da7132ece02b1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=53]{boot_svg-tex.pdf}}%
+    \put(0.2929627,2.62308478){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-18\\x2dpart1.device (3.464s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=54]{boot_svg-tex.pdf}}%
+    \put(0.29327171,2.61287028){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2duuid-c650ffb1\\x2d658a\\x2d4cc4\\x2d8d98\\x2d220ee66cfb75.device (3.460s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=55]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.60265577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-pci0000:00-0000:00:10.0-host2-target2:0:0-2:0:0:0-block-sda-sda2.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=56]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.59244127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-sda2.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=57]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.58222676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart-by\\x2dpartuuid-da7e4658\\x2d5d5e\\x2d4fc5\\x2db077\\x2d4e800bf5776b.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=58]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.57201226){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart-by\\x2duuid-c650ffb1\\x2d658a\\x2d4cc4\\x2d8d98\\x2d220ee66cfb75.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=59]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.56179775){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart2.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=60]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.55158325){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:00:10.0\\x2dscsi\\x2d0:0:0:0\\x2dpart-by\\x2dpartnum-2.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=61]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.54136874){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-18\\x2dpart2.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=62]{boot_svg-tex.pdf}}%
+    \put(0.29334322,2.53115424){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpartuuid-da7e4658\\x2d5d5e\\x2d4fc5\\x2db077\\x2d4e800bf5776b.device (3.459s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=63]{boot_svg-tex.pdf}}%
+    \put(0.29334628,2.52093973){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-root-device.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=64]{boot_svg-tex.pdf}}%
+    \put(0.32103931,2.51072523){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-cdrom.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=65]{boot_svg-tex.pdf}}%
+    \put(0.32103931,2.50051073){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2duuid-2026\\x2d09\\x2d09\\x2d12\\x2d12\\x2d50\\x2d00.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=66]{boot_svg-tex.pdf}}%
+    \put(0.32103984,2.49029622){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2did-ata\\x2dVMware\_Virtual\_SATA\_CDRW\_Drive\_00000000000000000001.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=67]{boot_svg-tex.pdf}}%
+    \put(0.32103984,2.48008172){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-20.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=68]{boot_svg-tex.pdf}}%
+    \put(0.32103984,2.46986721){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-pci0000:00-0000:00:11.0-0000:02:04.0-ata3-host3-target3:0:0-3:0:0:0-block-sr0.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=69]{boot_svg-tex.pdf}}%
+    \put(0.32103984,2.45965271){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-sr0.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=70]{boot_svg-tex.pdf}}%
+    \put(0.32103984,2.4494382){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:02:04.0\\x2data\\x2d1.0.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=71]{boot_svg-tex.pdf}}%
+    \put(0.32103984,2.4392237){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:02:04.0\\x2data\\x2d1.device (3.007s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=72]{boot_svg-tex.pdf}}%
+    \put(0.32122267,2.42900919){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-sr1.device (2.916s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=73]{boot_svg-tex.pdf}}%
+    \put(0.3212232,2.41879469){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-pci0000:00-0000:00:11.0-0000:02:04.0-ata4-host4-target4:0:0-4:0:0:0-block-sr1.device (2.916s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=74]{boot_svg-tex.pdf}}%
+    \put(0.32373748,2.40858018){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-22.device (2.866s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=75]{boot_svg-tex.pdf}}%
+    \put(0.32373801,2.39836568){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:02:04.0\\x2data\\x2d2.device (2.866s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=76]{boot_svg-tex.pdf}}%
+    \put(0.32373801,2.38815117){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2did-ata\\x2dVMware\_Virtual\_SATA\_CDRW\_Drive\_01000000000000000001.device (2.866s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=77]{boot_svg-tex.pdf}}%
+    \put(0.32373801,2.37793667){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2duuid-2026\\x2d08\\x2d26\\x2d06\\x2d31\\x2d43\\x2d00.device (2.866s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=78]{boot_svg-tex.pdf}}%
+    \put(0.32373801,2.36772217){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dlabel-Ubuntu\\x5cx2026.04.1\\x5cx20LTS\\x5cx20amd64.device (2.866s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=79]{boot_svg-tex.pdf}}%
+    \put(0.32373801,2.35750766){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dpath-pci\\x2d0000:02:04.0\\x2data\\x2d2.0.device (2.866s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=80]{boot_svg-tex.pdf}}%
+    \put(0.32387844,2.34729316){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dlabel-CDROM.device (2.951s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=81]{boot_svg-tex.pdf}}%
+    \put(0.32406077,2.33707865){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}remote-fs-pre.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=82]{boot_svg-tex.pdf}}%
+    \put(0.32422268,2.32686415){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-fsck-root.service (38ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=83]{boot_svg-tex.pdf}}%
+    \put(0.334524,2.31664964){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-root-fs.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=84]{boot_svg-tex.pdf}}%
+    \put(0.33462665,2.30643514){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-parse-etc.service (29ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=85]{boot_svg-tex.pdf}}%
+    \put(0.33623086,2.29622063){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-fs.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=86]{boot_svg-tex.pdf}}%
+    \put(0.33627578,2.28600613){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=87]{boot_svg-tex.pdf}}%
+    \put(0.33638354,2.27579162){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-cleanup.service (50ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=88]{boot_svg-tex.pdf}}%
+    \put(0.33832177,2.26557712){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}plymouth-switch-root.service (30ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=89]{boot_svg-tex.pdf}}%
+    \put(0.33963842,2.25536261){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-udevadm-cleanup-db.service (22ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=90]{boot_svg-tex.pdf}}%
+    \put(0.3408815,2.24514811){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-switch-root.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=91]{boot_svg-tex.pdf}}%
+    \put(0.3409811,2.23493361){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}initrd-switch-root.service (901ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=92]{boot_svg-tex.pdf}}%
+    \put(0.3536006,2.2247191){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=93]{boot_svg-tex.pdf}}%
+    \put(0.3860853,2.2145046){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-kernel-config.mount\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=94]{boot_svg-tex.pdf}}%
+    \put(0.38699643,2.20429009){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-journald.service (118ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=95]{boot_svg-tex.pdf}}%
+    \put(0.38723493,2.19407559){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}system-cups.slice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=96]{boot_svg-tex.pdf}}%
+    \put(0.38728908,2.18386108){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}user.slice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=97]{boot_svg-tex.pdf}}%
+    \put(0.38732636,2.17364658){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-ask-password-wall.path\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=98]{boot_svg-tex.pdf}}%
+    \put(0.38739223,2.16343207){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}proc-sys-fs-binfmt\_misc.automount\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=99]{boot_svg-tex.pdf}}%
+    \put(0.38743412,2.15321757){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}imports.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=100]{boot_svg-tex.pdf}}%
+    \put(0.38762259,2.14300306){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}integritysetup.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=101]{boot_svg-tex.pdf}}%
+    \put(0.38766342,2.13278856){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}remote-fs.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=102]{boot_svg-tex.pdf}}%
+    \put(0.38769815,2.12257406){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}slices.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=103]{boot_svg-tex.pdf}}%
+    \put(0.38772726,2.11235955){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snapd.mounts-pre.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=104]{boot_svg-tex.pdf}}%
+    \put(0.38776252,2.10214505){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}time-set.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=105]{boot_svg-tex.pdf}}%
+    \put(0.38779774,2.09193054){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}veritysetup.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=106]{boot_svg-tex.pdf}}%
+    \put(0.38783964,2.08171604){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}syslog.socket (70us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=107]{boot_svg-tex.pdf}}%
+    \put(0.38787384,2.07150153){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-ask-password.socket (1ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=108]{boot_svg-tex.pdf}}%
+    \put(0.38801583,2.06128703){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-creds.socket (1ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=109]{boot_svg-tex.pdf}}%
+    \put(0.38812667,2.05107252){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-factory-reset.socket (1ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=110]{boot_svg-tex.pdf}}%
+    \put(0.3882671,2.04085802){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-mute-console.socket (2ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=111]{boot_svg-tex.pdf}}%
+    \put(0.38842646,2.03064351){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-oomd.socket (71us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=112]{boot_svg-tex.pdf}}%
+    \put(0.38847446,2.02042901){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-resolved-monitor.socket (44us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=113]{boot_svg-tex.pdf}}%
+    \put(0.38852144,2.0102145){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-resolved-varlink.socket (30us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=114]{boot_svg-tex.pdf}}%
+    \put(0.38856639,2){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-udevd-control.socket (29us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=115]{boot_svg-tex.pdf}}%
+    \put(0.38860726,1.9897855){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-udevd-varlink.socket (37us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=116]{boot_svg-tex.pdf}}%
+    \put(0.3887528,1.97957099){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-hugepages.mount (87ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=117]{boot_svg-tex.pdf}}%
+    \put(0.38886823,1.96935649){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-mqueue.mount (86ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=118]{boot_svg-tex.pdf}}%
+    \put(0.38906231,1.95914198){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-kernel-debug.mount (83ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=119]{boot_svg-tex.pdf}}%
+    \put(0.3893759,1.94892748){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-kernel-tracing.mount (78ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=120]{boot_svg-tex.pdf}}%
+    \put(0.39039582,1.93871297){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}keyboard-setup.service (143ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=121]{boot_svg-tex.pdf}}%
+    \put(0.39066546,1.92849847){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}kmod-static-nodes.service (55ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=122]{boot_svg-tex.pdf}}%
+    \put(0.39142952,1.91828396){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}modprobe@efi\_pstore.service (41ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=123]{boot_svg-tex.pdf}}%
+    \put(0.39157815,1.90806946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-fs-fuse-connections.mount (40ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=124]{boot_svg-tex.pdf}}%
+    \put(0.39195147,1.89785495){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-modules-load.service (118ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=125]{boot_svg-tex.pdf}}%
+    \put(0.39224312,1.88764045){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-remount-fs.service (43ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=126]{boot_svg-tex.pdf}}%
+    \put(0.39250203,1.87742594){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-udev-load-credentials.service (27ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=127]{boot_svg-tex.pdf}}%
+    \put(0.39276304,1.86721144){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-udev-trigger.service (852ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=128]{boot_svg-tex.pdf}}%
+    \put(0.39469562,1.85699694){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}swap.img.swap (40ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=129]{boot_svg-tex.pdf}}%
+    \put(0.39500154,1.84678243){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}run-vmblock\\x2dfuse.mount (59ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=130]{boot_svg-tex.pdf}}%
+    \put(0.39541317,1.83656793){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-journal-flush.service (105ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=131]{boot_svg-tex.pdf}}%
+    \put(0.39594432,1.82635342){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-random-seed.service (35ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=132]{boot_svg-tex.pdf}}%
+    \put(0.39617262,1.81613892){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-tmpfiles-setup-dev-early.service (91ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=133]{boot_svg-tex.pdf}}%
+    \put(0.39680439,1.80592441){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}swap.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=134]{boot_svg-tex.pdf}}%
+    \put(0.3973524,1.79570991){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}tmp.mount (13ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=135]{boot_svg-tex.pdf}}%
+    \put(0.39817568,1.7854954){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-sysctl.service (58ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=136]{boot_svg-tex.pdf}}%
+    \put(0.4010434,1.7752809){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-oomd.service (60ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=137]{boot_svg-tex.pdf}}%
+    \put(0.40111899,1.76506639){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-tmpfiles-setup-dev.service (28ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=138]{boot_svg-tex.pdf}}%
+    \put(0.40130235,1.75485189){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-resolved.service (88ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=139]{boot_svg-tex.pdf}}%
+    \put(0.40260214,1.74463739){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}local-fs-pre.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=140]{boot_svg-tex.pdf}}%
+    \put(0.40281919,1.73442288){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-udevd.service (214ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=141]{boot_svg-tex.pdf}}%
+    \put(0.40585137,1.72420838){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}nss-lookup.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=142]{boot_svg-tex.pdf}}%
+    \put(0.43633912,1.71399387){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-ask-password-console.path\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=143]{boot_svg-tex.pdf}}%
+    \put(0.43634576,1.70377937){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}cryptsetup.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=144]{boot_svg-tex.pdf}}%
+    \put(0.43917161,1.69356486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-bare-5.mount (428ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=145]{boot_svg-tex.pdf}}%
+    \put(0.43935802,1.68335036){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-core24-1643.mount (426ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=146]{boot_svg-tex.pdf}}%
+    \put(0.43985649,1.67313585){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-core24-2124.mount (418ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=147]{boot_svg-tex.pdf}}%
+    \put(0.44027835,1.66292135){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-desktop\\x2dsecurity\\x2dcenter-151.mount (413ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=148]{boot_svg-tex.pdf}}%
+    \put(0.4406093,1.65270684){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-desktop\\x2dsecurity\\x2dcenter-188.mount (408ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=149]{boot_svg-tex.pdf}}%
+    \put(0.44093106,1.64249234){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-firefox-8763.mount (404ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=150]{boot_svg-tex.pdf}}%
+    \put(0.44135139,1.63227783){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-firmware\\x2dupdater-226.mount (398ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=151]{boot_svg-tex.pdf}}%
+    \put(0.44162869,1.62206333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-gnome\\x2d46\\x2d2404-164.mount (394ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=152]{boot_svg-tex.pdf}}%
+    \put(0.4421282,1.61184883){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-gtk\\x2dcommon\\x2dthemes-1535.mount (387ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=153]{boot_svg-tex.pdf}}%
+    \put(0.44247854,1.60163432){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-hwctl-123.mount (383ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=154]{boot_svg-tex.pdf}}%
+    \put(0.44270479,1.59141982){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-mesa\\x2d2404-1839.mount (381ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=155]{boot_svg-tex.pdf}}%
+    \put(0.44312206,1.58120531){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-prompting\\x2dclient-222.mount (378ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=156]{boot_svg-tex.pdf}}%
+    \put(0.44364812,1.57099081){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-prompting\\x2dclient-228.mount (369ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=157]{boot_svg-tex.pdf}}%
+    \put(0.44447294,1.5607763){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-snap\\x2dstore-1390.mount (356ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=158]{boot_svg-tex.pdf}}%
+    \put(0.44502759,1.5505618){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-snapd-27710.mount (346ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=159]{boot_svg-tex.pdf}}%
+    \put(0.44769306,1.54034729){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-snapd\\x2ddesktop\\x2dintegration-391.mount (296ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=160]{boot_svg-tex.pdf}}%
+    \put(0.44962411,1.53013279){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snap-thunderbird-1259.mount (376ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=161]{boot_svg-tex.pdf}}%
+    \put(0.4501859,1.51991828){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop1.device (329ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=162]{boot_svg-tex.pdf}}%
+    \put(0.45047038,1.50970378){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop0.device (374ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=163]{boot_svg-tex.pdf}}%
+    \put(0.45103372,1.49948927){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop3.device (361ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=164]{boot_svg-tex.pdf}}%
+    \put(0.45142646,1.48927477){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop2.device (349ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=165]{boot_svg-tex.pdf}}%
+    \put(0.45190193,1.47906027){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop4.device (314ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=166]{boot_svg-tex.pdf}}%
+    \put(0.45227222,1.46884576){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop5.device (331ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=167]{boot_svg-tex.pdf}}%
+    \put(0.45266802,1.45863126){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop6.device (320ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=168]{boot_svg-tex.pdf}}%
+    \put(0.45290093,1.44841675){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop7.device (322ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=169]{boot_svg-tex.pdf}}%
+    \put(0.45293158,1.43820225){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop8.device (4.035s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=170]{boot_svg-tex.pdf}}%
+    \put(0.45332737,1.42798774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop11.device (4.082s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=171]{boot_svg-tex.pdf}}%
+    \put(0.45389583,1.41777324){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop10.device (3.955s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=172]{boot_svg-tex.pdf}}%
+    \put(0.45424976,1.40755873){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop9.device (4.063s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=173]{boot_svg-tex.pdf}}%
+    \put(0.45474209,1.39734423){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop13.device (4.015s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=174]{boot_svg-tex.pdf}}%
+    \put(0.45743973,1.38712972){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop14.device (3.960s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=175]{boot_svg-tex.pdf}}%
+    \put(0.45999797,1.37691522){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop12.device (4.037s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=176]{boot_svg-tex.pdf}}%
+    \put(0.4601619,1.36670072){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop15.device (3.877s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=177]{boot_svg-tex.pdf}}%
+    \put(0.46701327,1.35648621){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d400673.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=178]{boot_svg-tex.pdf}}%
+    \put(0.4670138,1.34627171){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop1.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=179]{boot_svg-tex.pdf}}%
+    \put(0.4670138,1.3360572){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2fbare\_5.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=180]{boot_svg-tex.pdf}}%
+    \put(0.4670138,1.3258427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-24.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=181]{boot_svg-tex.pdf}}%
+    \put(0.46798263,1.31562819){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d400677.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=182]{boot_svg-tex.pdf}}%
+    \put(0.46798313,1.30541369){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop4.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=183]{boot_svg-tex.pdf}}%
+    \put(0.46798313,1.29519918){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2ffirmware\\x2dupdater\_226.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=184]{boot_svg-tex.pdf}}%
+    \put(0.46798313,1.28498468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-27.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=185]{boot_svg-tex.pdf}}%
+    \put(0.46883554,1.27477017){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-loop16.device (3.875s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=186]{boot_svg-tex.pdf}}%
+    \put(0.46903728,1.26455567){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop6.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=187]{boot_svg-tex.pdf}}%
+    \put(0.46903728,1.25434116){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d400675.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=188]{boot_svg-tex.pdf}}%
+    \put(0.46903778,1.24412666){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-29.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=189]{boot_svg-tex.pdf}}%
+    \put(0.46903778,1.23391216){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2fdesktop\\x2dsecurity\\x2dcenter\_151.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=190]{boot_svg-tex.pdf}}%
+    \put(0.4691803,1.22369765){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-28.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=191]{boot_svg-tex.pdf}}%
+    \put(0.4691813,1.21348315){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2ffirefox\_8763.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=192]{boot_svg-tex.pdf}}%
+    \put(0.4691813,1.20326864){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d400676.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=193]{boot_svg-tex.pdf}}%
+    \put(0.4691813,1.19305414){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop5.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=194]{boot_svg-tex.pdf}}%
+    \put(0.46928856,1.18283963){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d393753.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=195]{boot_svg-tex.pdf}}%
+    \put(0.46928906,1.17262513){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-25.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=196]{boot_svg-tex.pdf}}%
+    \put(0.46928906,1.16241062){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2fdesktop\\x2dsecurity\\x2dcenter\_188.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=197]{boot_svg-tex.pdf}}%
+    \put(0.46928906,1.15219612){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop2.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=198]{boot_svg-tex.pdf}}%
+    \put(0.46939583,1.14198161){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2fgnome\\x2d46\\x2d2404\_164.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=199]{boot_svg-tex.pdf}}%
+    \put(0.46939583,1.13176711){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-30.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=200]{boot_svg-tex.pdf}}%
+    \put(0.46939632,1.1215526){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d400678.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=201]{boot_svg-tex.pdf}}%
+    \put(0.46939632,1.1113381){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop7.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=202]{boot_svg-tex.pdf}}%
+    \put(0.46949031,1.1011236){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop3.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=203]{boot_svg-tex.pdf}}%
+    \put(0.46949031,1.09090909){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-26.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=204]{boot_svg-tex.pdf}}%
+    \put(0.46949031,1.08069459){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2fcore24\_2124.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=205]{boot_svg-tex.pdf}}%
+    \put(0.46949336,1.07048008){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d406389.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=206]{boot_svg-tex.pdf}}%
+    \put(0.46958579,1.06026558){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sys-devices-virtual-block-loop0.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=207]{boot_svg-tex.pdf}}%
+    \put(0.46958579,1.05005107){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dref-\\x5cx2fvar\\x5cx2flib\\x5cx2fsnapd\\x5cx2fsnaps\\x5cx2fcore24\_1643.snap.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=208]{boot_svg-tex.pdf}}%
+    \put(0.46958579,1.03983657){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2ddiskseq-23.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=209]{boot_svg-tex.pdf}}%
+    \put(0.46958579,1.02962206){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}dev-disk-by\\x2dloop\\x2dinode-8:2\\x2d400674.device\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=210]{boot_svg-tex.pdf}}%
+    \put(0.47016291,1.01940756){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}snapd.mounts.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=211]{boot_svg-tex.pdf}}%
+    \put(0.47022881,1.00919305){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}local-fs.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=212]{boot_svg-tex.pdf}}%
+    \put(0.47028345,0.99897855){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-sysext.socket (1ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=213]{boot_svg-tex.pdf}}%
+    \put(0.47066241,0.98876404){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}apparmor.service (498ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=214]{boot_svg-tex.pdf}}%
+    \put(0.47084321,0.97854954){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}console-setup.service (47ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=215]{boot_svg-tex.pdf}}%
+    \put(0.4712002,0.96833504){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}kdump-tools.service (179ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=216]{boot_svg-tex.pdf}}%
+    \put(0.47131715,0.95812053){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}netplan-configure.service (281ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=217]{boot_svg-tex.pdf}}%
+    \put(0.47165933,0.94790603){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}plymouth-read-write.service (75ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=218]{boot_svg-tex.pdf}}%
+    \put(0.47207149,0.93769152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-binfmt.service (449ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=219]{boot_svg-tex.pdf}}%
+    \put(0.47242698,0.92747702){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}systemd-tmpfiles-setup.service (84ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=220]{boot_svg-tex.pdf}}%
+    \put(0.47296373,0.91726251){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ufw.service (25ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=221]{boot_svg-tex.pdf}}%
+    \put(0.48571297,0.90704801){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}network-pre.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=222]{boot_svg-tex.pdf}}%
+    \put(0.48968796,0.8968335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}proc-sys-fs-binfmt\_misc.mount (92ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=223]{boot_svg-tex.pdf}}%
+    \put(0.49169816,0.886619){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}snapd.apparmor.service (277ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=224]{boot_svg-tex.pdf}}%
+    \put(0.49210162,0.87640449){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}vgauth.service\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=225]{boot_svg-tex.pdf}}%
+    \put(0.49250256,0.86618999){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}open-vm-tools.service (21ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=226]{boot_svg-tex.pdf}}%
+    \put(0.50599591,0.85597549){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}sysinit.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=227]{boot_svg-tex.pdf}}%
+    \put(0.50615168,0.84576098){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}cups.path\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=228]{boot_svg-tex.pdf}}%
+    \put(0.50718846,0.83554648){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}anacron.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=229]{boot_svg-tex.pdf}}%
+    \put(0.5072135,0.82533197){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}apt-daily.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=230]{boot_svg-tex.pdf}}%
+    \put(0.50723239,0.81511747){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}apt-daily-upgrade.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=231]{boot_svg-tex.pdf}}%
+    \put(0.50724872,0.80490296){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}dpkg-db-backup.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=232]{boot_svg-tex.pdf}}%
+    \put(0.50726914,0.79468846){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}e2scrub\_all.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=233]{boot_svg-tex.pdf}}%
+    \put(0.50728906,0.78447395){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}fstrim.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=234]{boot_svg-tex.pdf}}%
+    \put(0.50733504,0.77425945){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}fwupd-refresh.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=235]{boot_svg-tex.pdf}}%
+    \put(0.50739071,0.76404494){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}logrotate.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=236]{boot_svg-tex.pdf}}%
+    \put(0.5074336,0.75383044){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}man-db.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=237]{boot_svg-tex.pdf}}%
+    \put(0.50748264,0.74361593){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}motd-news.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=238]{boot_svg-tex.pdf}}%
+    \put(0.50754392,0.73340143){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}sysstat-collect.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=239]{boot_svg-tex.pdf}}%
+    \put(0.50760879,0.72318693){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}sysstat-rotate.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=240]{boot_svg-tex.pdf}}%
+    \put(0.50765527,0.71297242){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}sysstat-summary.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=241]{boot_svg-tex.pdf}}%
+    \put(0.50770583,0.70275792){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}systemd-tmpfiles-clean.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=242]{boot_svg-tex.pdf}}%
+    \put(0.50844383,0.69254341){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}boot-complete.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=243]{boot_svg-tex.pdf}}%
+    \put(0.50846375,0.68232891){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}paths.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=244]{boot_svg-tex.pdf}}%
+    \put(0.50848928,0.6721144){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}avahi-daemon.socket (87us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=245]{boot_svg-tex.pdf}}%
+    \put(0.50851225,0.6618999){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}cups.socket (910us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=246]{boot_svg-tex.pdf}}%
+    \put(0.50860571,0.65168539){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}dbus.socket (63us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=247]{boot_svg-tex.pdf}}%
+    \put(0.50865066,0.64147089){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}polkit-agent-helper.socket (2ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=248]{boot_svg-tex.pdf}}%
+    \put(0.50883401,0.63125638){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}snap.hwctl.hwctl-daemon.hwctl-socket.socket (112us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=249]{boot_svg-tex.pdf}}%
+    \put(0.50889019,0.62104188){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}snapd.socket (11ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=250]{boot_svg-tex.pdf}}%
+    \put(0.5089852,0.61082737){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}systemd-hostnamed.socket (61us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=251]{boot_svg-tex.pdf}}%
+    \put(0.5090184,0.60061287){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}systemd-logind-varlink.socket (50us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=252]{boot_svg-tex.pdf}}%
+    \put(0.50904904,0.59039837){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}uuidd.socket (86us)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=253]{boot_svg-tex.pdf}}%
+    \put(0.50956896,0.58018386){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}sockets.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=254]{boot_svg-tex.pdf}}%
+    \put(0.50964658,0.56996936){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}basic.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=255]{boot_svg-tex.pdf}}%
+    \put(0.51003729,0.55975485){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}anacron.service\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=256]{boot_svg-tex.pdf}}%
+    \put(0.51027171,0.54954035){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}apport.service (994ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=257]{boot_svg-tex.pdf}}%
+    \put(0.51071706,0.53932584){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}avahi-daemon.service (717ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=258]{boot_svg-tex.pdf}}%
+    \put(0.51137436,0.52911134){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}chrony.service (910ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=259]{boot_svg-tex.pdf}}%
+    \put(0.51180338,0.51889683){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}dbus.service (677ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=260]{boot_svg-tex.pdf}}%
+    \put(0.5126527,0.50868233){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}dmesg.service\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=261]{boot_svg-tex.pdf}}%
+    \put(0.51347446,0.49846782){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}dpkg-db-backup.service (355ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=262]{boot_svg-tex.pdf}}%
+    \put(0.51394893,0.48825332){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}dracut-shutdown.service (352ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=263]{boot_svg-tex.pdf}}%
+    \put(0.51427222,0.47803882){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}e2scrub\_reap.service (352ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=264]{boot_svg-tex.pdf}}%
+    \put(0.51434781,0.46782431){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}getty.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=265]{boot_svg-tex.pdf}}%
+    \put(0.51502247,0.45760981){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}gpu-manager.service (965ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=266]{boot_svg-tex.pdf}}%
+    \put(0.51542952,0.4473953){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}grub2-common.service (735ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=267]{boot_svg-tex.pdf}}%
+    \put(0.51577834,0.4371808){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}lm-sensors.service (683ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=268]{boot_svg-tex.pdf}}%
+    \put(0.51669153,0.42696629){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}networkd-dispatcher.service (829ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=269]{boot_svg-tex.pdf}}%
+    \put(0.51749387,0.41675179){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}polkit.service (906ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=270]{boot_svg-tex.pdf}}%
+    \put(0.51811033,0.40653728){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}rsyslog.service (693ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=271]{boot_svg-tex.pdf}}%
+    \put(0.51845556,0.39632278){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}getty-pre.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=272]{boot_svg-tex.pdf}}%
+    \put(0.51891061,0.38610827){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}snapd.seeded.service (1.687s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=273]{boot_svg-tex.pdf}}%
+    \put(0.52017876,0.37589377){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}snapd.service (1.527s)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=274]{boot_svg-tex.pdf}}%
+    \put(0.52074413,0.36567926){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}nss-user-lookup.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=275]{boot_svg-tex.pdf}}%
+    \put(0.5230572,0.35546476){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}accounts-daemon.service (818ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=276]{boot_svg-tex.pdf}}%
+    \put(0.52431921,0.34525026){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}cron.service\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=277]{boot_svg-tex.pdf}}%
+    \put(0.52538916,0.33503575){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}switcheroo-control.service (436ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=278]{boot_svg-tex.pdf}}%
+    \put(0.52656538,0.32482125){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}sysstat.service (283ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=279]{boot_svg-tex.pdf}}%
+    \put(0.52818234,0.31460674){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}systemd-logind.service (241ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=280]{boot_svg-tex.pdf}}%
+    \put(0.53104392,0.30439224){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}udisks2.service (796ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=281]{boot_svg-tex.pdf}}%
+    \put(0.54853629,0.29417773){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}NetworkManager.service (628ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=282]{boot_svg-tex.pdf}}%
+    \put(0.54992751,0.28396323){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}wpa\_supplicant.service (183ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=283]{boot_svg-tex.pdf}}%
+    \put(0.55434885,0.27374872){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}grub-initrd-fallback.service (223ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=284]{boot_svg-tex.pdf}}%
+    \put(0.56554135,0.26353422){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}ModemManager.service (369ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=285]{boot_svg-tex.pdf}}%
+    \put(0.58064814,0.25331971){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}network.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=286]{boot_svg-tex.pdf}}%
+    \put(0.58150101,0.24310521){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}NetworkManager-wait-online.service (125ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=287]{boot_svg-tex.pdf}}%
+    \put(0.5818805,0.2328907){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}cups.service (146ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=288]{boot_svg-tex.pdf}}%
+    \put(0.58250968,0.2226762){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}openvpn.service (34ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=289]{boot_svg-tex.pdf}}%
+    \put(0.58290706,0.2124617){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}systemd-user-sessions.service (46ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=290]{boot_svg-tex.pdf}}%
+    \put(0.58352402,0.20224719){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}unattended-upgrades.service\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=291]{boot_svg-tex.pdf}}%
+    \put(0.58586518,0.19203269){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}gdm.service (419ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=292]{boot_svg-tex.pdf}}%
+    \put(0.58695303,0.18181818){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}plymouth-quit-wait.service (52ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=293]{boot_svg-tex.pdf}}%
+    \put(0.58857916,0.17160368){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}network-online.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=294]{boot_svg-tex.pdf}}%
+    \put(0.58868439,0.16138917){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}update-notifier-download.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=295]{boot_svg-tex.pdf}}%
+    \put(0.58903982,0.15117467){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}update-notifier-motd.timer\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=296]{boot_svg-tex.pdf}}%
+    \put(0.58911183,0.14096016){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}timers.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=297]{boot_svg-tex.pdf}}%
+    \put(0.59024512,0.13074566){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}cups-browsed.service\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=298]{boot_svg-tex.pdf}}%
+    \put(0.59114606,0.12053115){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}setvtrgb.service (25ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=299]{boot_svg-tex.pdf}}%
+    \put(0.59297649,0.11031665){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}system-getty.slice\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=300]{boot_svg-tex.pdf}}%
+    \put(0.60526096,0.10010215){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}multi-user.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=301]{boot_svg-tex.pdf}}%
+    \put(0.60722418,0.08988764){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}power-profiles-daemon.service (178ms)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=302]{boot_svg-tex.pdf}}%
+    \put(0.61643307,0.07967314){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}graphical.target\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=303]{boot_svg-tex.pdf}}%
+    \put(0.03319714,0.05924413){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Activating\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=304]{boot_svg-tex.pdf}}%
+    \put(0.03319714,0.04902962){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Active\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=305]{boot_svg-tex.pdf}}%
+    \put(0.03319714,0.03881512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Deactivating\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=306]{boot_svg-tex.pdf}}%
+    \put(0.03319714,0.02860061){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Setting up security module\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=307]{boot_svg-tex.pdf}}%
+    \put(0.03319714,0.01838611){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Generators\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=308]{boot_svg-tex.pdf}}%
+    \put(0.03319714,0.0081716){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Loading unit files\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
