@@ -1,0 +1,11 @@
+[Unit]
+Description=Run statistics.service every minute
+
+[Timer]
+OnCalendar=*:*:00
+AccuracySec=30s
+Persistent=true
+Unit=statistics.service
+
+[Install]
+WantedBy=timers.target

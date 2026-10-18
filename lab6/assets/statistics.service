@@ -1,0 +1,11 @@
+[Unit]
+Description=Service to collect CPU/process statistics via mpstat and pidstat
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/statistics.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target

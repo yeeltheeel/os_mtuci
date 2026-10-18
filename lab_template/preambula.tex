@@ -40,6 +40,8 @@
 \renewcommand{\cftaftertoctitle}{\hfill\hspace*{0.5em}}
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 
+\setlength{\cftsecnumwidth}{5em}
+
 % listings
 
 \lstdefinestyle{python}{
@@ -181,6 +183,8 @@
 	\addcontentsline{toc}{section}{#1}
 	\markboth{#1}{#1}
 }
+
+\renewcommand{\thesection}{Задание \arabic{section}.}
 
 \newcommand{\floor}[1]{
 	\lfloor #1 \rfloor
