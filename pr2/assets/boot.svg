@@ -41,7 +41,7 @@
 
 <rect class="background" width="100%" height="100%" />
 <text x="20" y="50">Startup finished in 3.538s (kernel) + 3.134s (initrd) + 5.248s (userspace) = 11.921s 
-graphical.target reached after 5.246s in userspace.</text><text x="20" y="30">Ubuntu 26.04.1 LTS elanskaya (Linux 7.0.0-31-generic #31-Ubuntu SMP PREEMPT_DYNAMIC Sat Aug  1 04:26:38 UTC 2026) x86-64 vmware</text><g transform="translate(20.000,100)">
+graphical.target reached after 5.246s in userspace.</text><text x="20" y="30">Ubuntu 26.04.1 LTS elanskaya (Linux 7.0.0-31-generic \#31-Ubuntu SMP PREEMPT\_DYNAMIC Sat Aug  1 04:26:38 UTC 2026) x86-64 vmware</text><g transform="translate(20.000,100)">
 <rect class="box" x="0" y="0" width="1192.150" height="5780.000" />
   <line class="sec5" x1="0.000" y1="0" x2="0.000" y2="5780.000" />
   <text class="sec" x="0.000" y="-5.000" >0.0s</text>
