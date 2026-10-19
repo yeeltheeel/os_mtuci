@@ -13,42 +13,44 @@
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 13-00-44.png"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 13-02-54.png"}
 	\caption{Проверка системы при помощи команды top}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 13-04-20.png"}
 	\caption{Изменение приоритета запущенного процесса командой renice}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	%\includegraphics[width=0.6\linewidth]{}
 	\caption{Cортировка процессов с помощью команд atop и atopsar}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 13-36-46.png"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 13-37-09.png"}
 	\caption{Вывод информации по процессорам при помощи команды mpstat и опции P}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	\includegraphics[width=0.6\linewidth]{Screenshot From 2026-10-19 13-37-29.png}
 	\caption{Проверка системы при помощи команды pidstat}
 \end{figure}
 \FloatBarrier
 
 \section{Создание скрипта для получения статистики}
 
-Скрипт, осуществляющий сбор статистики использования процессоров и статистики работы процессов средствами mpstat и pidstat, выводящий данные в текстовый файл с именем yyyy-mm-dd\_h:m:s\_syslog, представлен в листинге \ref{stat}.
+Скрипт, осуществляющий сбор статистики использования процессоров и статистики работы процессов средствами mpstat и pidstat, выводящий данные в текстовый файл с именем yyyy-mm-dd\_h:m:s\_syslog, представлен в листинге~\ref{stat}.
 
 \lstinputlisting[
 	label={stat}, 
@@ -60,14 +62,14 @@
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 14-03-55.png"}
 	\caption{Вывод команды ls -l для директории сохранения логов скрипта}
 \end{figure}
 \FloatBarrier
 
 \section{Создание автозапускаемой службы}
 
-Код файла службы по сбору статистики, запускающую скрипт из задания 2 при старте системы, представлен в листинге \ref{service}.
+Код файла службы по сбору статистики, запускающую скрипт из задания 2 при старте системы, представлен в листинге~\ref{service}.
 
 
 \lstinputlisting[
@@ -78,7 +80,8 @@
 
 \begin{figure}[!htbp]
 	\centering
-	%\includegraphics[width=0.6\linewidth]{""}
+	%\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 14-04-14.png"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 14-04-34.png"}
 	\caption{Вывод команды ls -l для директории сохранения логов скрипта}
 \end{figure}
 \FloatBarrier
@@ -87,7 +90,7 @@
 
 %\lstinputlisting[style=bash, caption={Код таймера для запуска каждую минуту}]{}
 
-Результаты работы таймера для службы из задания 3 представлены в листинге \ref{timer} и на рисунке \ref{timer:log}
+Результаты работы таймера для службы из задания 3 представлены в листинге~\ref{timer} и на рисунке~\ref{timer:log}
 
 \lstinputlisting[
 	label={timer}, 
@@ -97,9 +100,9 @@
 
 \begin{figure}[!htbp]
 	\centering
-	\label{timer:log}
-	%\includegraphics[width=0.6\linewidth]{""}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 14-05-32.png"}
 	\caption{Результат работы таймера}
+	\label{timer:log}
 \end{figure}
 \FloatBarrier
 

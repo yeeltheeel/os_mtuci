@@ -1,6 +1,6 @@
 \ssr{Введение}
 
-Цели данной лабораторной работы:
+Цели данной практической работы:
 \begin{enumerate}
 	\item изучить этапы загрузки операционных систем семейства GNU/Linux;
 	\item освоить методы анализа процесса загрузки;
@@ -13,7 +13,7 @@
 
 Цель: понять последовательность этапов загрузки Linux, определить основные компоненты и проанализировать параметры, переданные ядру.
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item определить систему инициализации;
 	\item изучить параметры загрузки ядра и объяснить их назначение;
@@ -24,7 +24,7 @@
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-50-32"}
-	\caption{Вывод по заданию 1}
+	\caption{Вывод системы инициализации и загруженных модулей ядра}
 \end{figure}
 \FloatBarrier
 
@@ -38,17 +38,25 @@
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{Перечислите этапы загрузки в правильном порядке (от включения питания до появления приглашения входа).}\newline 
+	BIOS/UEFI $\rightarrow$ GRUB $\rightarrow$ ядро $\rightarrow$ initramfs $\rightarrow$ systemd $\rightarrow$ target $\rightarrow$ приглашение входа.
 	\item \textit{Какой процесс запускается первым после ядра? Какова его роль?}\newline 
+	Процесс systemd (PID 1). 
+	Его роль -- инициализация системы, запуск юнитов и сервисов, управление целями (targets), монтирование ФС и т.д.
 	\item \textit{Сколько времени заняла загрузка вашей системы (kernel + userspace)?}\newline 
+	11.921 секунд.
 	\item \textit{Запишите содержимое /proc/cmdline. Что означают параметры quiet, splash, ro? Какой UUID у вашей корневой файловой системы? Зачем используется UUID вместо имени устройства (например, /dev/sda1)?}\newline 
-	\item \textit{Какие модули ядра загружены первыми? (из вывода lsmod)}\newline 
+	Параметры: quiet -- подавление подробных сообщений ядра; splash -- показ графической заставки; ro -- монтирование корневой ФС в режиме только для чтения на этапе initramfs.
+	UUID моей системы -- ?.
+	UUID используется благодаря его стабильности, так как имена могут меняться при подключении дисков.
+	\item \textit{Какие модули ядра загружены первыми? (из вывода lsmod)}\newline
+	Первыми в выводе lsmod отображаются модули, загруженные последними (обратный порядок).
 \end{enumerate}
 
 \ssection{Задание 2. Исследование загрузчика GRUB}
 
 Цель: изучить конфигурацию загрузчика GRUB, научиться находить доступные ядра и параметры загрузки.
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item понять структуру конфигурационного файла GRUB;
 	\item определить все доступные пункты меню (включая подменю);
@@ -60,7 +68,7 @@
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-54-28"}
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-54-57"}	
-	\caption{Вывод по заданию 2}
+	\caption{Фрагмент файла конфигурации GRUB}
 \end{figure}
 \FloatBarrier
 
@@ -68,7 +76,7 @@
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-55-20"}
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-56-43"}
-	\caption{Вывод по заданию 2}
+	\caption{Фрагмент файла конфигурации GRUB, отображающий menuentry}
 \end{figure}
 \FloatBarrier
 \clearpage
@@ -77,24 +85,31 @@
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-58-08"}
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 13-59-52"}
-	\caption{Вывод по заданию 2}
+	\caption{Параметры конфигурации GRUB}
 \end{figure}
 \FloatBarrier
 
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{Сколько различных пунктов меню (включая подменю) вы обнаружили в файле grub.cfg?}\newline 
+	12 пунктов меню.
 	\item \textit{Сколько ядер доступно для загрузки в вашей системе? Укажите их версии.}\newline 
+	Одно ядро: 7.0.0-31-generic (файлы /boot/vmlinuz, /boot/vmlinuz.old, /boot/vmlinuz-7.0.0-31-generic -- это одно и то же ядро).
 	\item \textit{Какое ядро загружается по умолчанию? Как это определено в /etc/default/grub?}\newline 
+	Пункт по умолчанию -- первый (Ubuntu с ядром 7.0.0-31-generic), так как GRUB\_DEFAULT=0.
+	Параметром GRUB\_DEFAULT: 0 -- первый пункт меню, saved -- последнее загруженное, либо точное имя пункта.
 	\item \textit{Какой параметр в файле /etc/default/grub отвечает за время отображения меню? Какое значение установлено у вас?}\newline 
+	GRUB\_TIMEOUT (в секундах). 
+	% Также используется GRUB\_TIMEOUT\_STYLE (menu/countdown/hidden).
 	\item \textit{Что произойдет, если установить GRUB\_TIMEOUT=0?}\newline  
+	Меню не отображается, сразу грузится пункт по умолчанию. Для вызова меню нужно удерживать Shift (BIOS) или Esc (UEFI).
 \end{enumerate}
 
 \ssection{Задание 3. Анализ времени загрузки}
 
 Цель: научиться определять, какие службы замедляют старт системы.
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item получить общее время загрузки;
 	\item найти самые «медленные» сервисы;
@@ -105,23 +120,28 @@
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 15-56-40.png"}
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 15-57-35.png"}
-	\caption{Вывод по заданию 3}
+	\caption{Вывод времени загрузки и цепочки критических зависимостей}
 \end{figure}
 \FloatBarrier
 
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{Какой сервис грузится дольше всех? Сколько времени это занимает?}\newline 
+	Сервис dev-rfkill.device, 6.868 секунд. 
 	\item \textit{Что означает состояние active (running) у сервиса?}\newline 
+	Что сервис запущен и работает в данный момент.
 	\item \textit{Какой target отвечает за графический интерфейс? Как проверить, активен ли он?}\newline 
+	graphical.target.
+	Проверка: systemctl is-active graphical.target.
 	\item \textit{Как переключиться в текстовый режим без перезагрузки?}\newline 
+	Командой sudo systemctl isolate multi-user.target (графические приложения закроются).
 \end{enumerate}
 
 \ssection{Задание 4. Исследование Initramfs}
 
 Цель: понять назначение временной корневой файловой системы (initramfs).
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item найти файл initramfs для текущего ядра;
 	\item оценить его размер и дату создания;
@@ -131,23 +151,27 @@
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 15-58-58.png"}
-	\caption{Вывод по заданию 4}
+	\caption{Вывод содержимого файла initramfs}
 \end{figure}
 \FloatBarrier
 
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{Какой размер у вашего initramfs? (в мегабайтах)}\newline 
+	42 Мб (команда ls -lh /boot/initrd.img-7.0.0-31-generic).
 	\item \textit{Для чего нужен initramfs?}\newline 
+	Временная ФС с драйверами и утилитами для монтирования реальной корневой ФС.
 	\item \textit{Какие драйверы (модули) присутствуют в initramfs? Приведите 2–3 примера.}\newline 
+	По выводу lsinitramfs модулей .ko не найдено (grep -E ".ko\$" пуст); в initramfs присутствуют микрокод kernel/x86/microcode/GenuineIntel.bin, скрипты и конфигурация (etc/cmdline.d/20-root-dev.conf).
 	\item \textit{Что произойдёт, если удалить initramfs?}\newline 
+	Система не загрузится, если драйверы корня не встроены в ядро.
 \end{enumerate}
 
 \ssection{Задание 5. Мониторинг процесса загрузки (логи)}
 
 Цель: научиться читать и анализировать сообщения, генерируемые при загрузке.
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item просмотреть логи текущей загрузки;
 	\item найти сообщения ядра;
@@ -157,23 +181,31 @@
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 15-59-46.png"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 12-26-11.png"}
+	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-19 12-26-46.png"}
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 16-00-23.png"}
-	\caption{Вывод по заданию 5}
+	\caption{Вывод логов текущей загрузки}
 \end{figure}
 \FloatBarrier
 
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{В какое время началась текущая загрузка системы?}\newline 
+	2026-10-05 в 14:59:41.
 	\item \textit{Были ли ошибки при загрузке? Если да, то какие?}\newline 
+	Да: 
+	piix4\_smbus — SMBus Host Controller not enabled!; 
+	gkr-pam: couldn't unlock the login keyring; /dev/sr0;
+	/dev/sr1: Can't open blockdev.
 	\item \textit{Какой сервис, судя по логам, запустился первым? (после ядра)}\newline 
+	systemd.
 \end{enumerate}
 
 \ssection{Задание 6. Сравнение состояний системы}
 
 Цель: проанализировать состояние уже загруженной системы.
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item подсчитать загруженные модули ядра;
 	\item посмотреть смонтированные файловые системы;
@@ -183,23 +215,27 @@
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 16-00-57.png"}
-	\caption{Вывод по заданию 6}
+	\caption{Вывод количества загруженных модулей ядра и списка смонтированных файловых систем}
 \end{figure}
 \FloatBarrier
 
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{Сколько модулей ядра загружено в системе?}\newline 
+	64 модуля (lsmod | wc -l дал 65 строк, из них 1 -- заголовок).
 	\item \textit{Какая файловая система используется для корневого каталога (`/`)?}\newline 
-	\item \textit{Какие сетевые интерфейсы активны? Есть ли у них IP-адреса?}\newline 
+	ext4 (/dev/sda2 на /).
+	\item \textit{Какие сетевые интерфейсы активны? Есть ли у них IP-адреса?}\newline
+	lo (127.0.0.1, ::1) и ens33 (192.168.237.130/24, fe80::20c:29ff:fe4c:ddf1/64). Оба активны и имеют IP-адреса.
 	\item \textit{Сколько процессов работает в системе? (примерно)}\newline 
+	Около 391 процесса.
 \end{enumerate}
 
 \ssection{Задание 7. Эксперимент с уровнями выполнения (targets)}
 
 Цель: понять разницу между различными состояниями системы в systemd.
 
-Задачи
+Задачи:
 \begin{enumerate}
 	\item изучить доступные targets;
 	\item узнать текущий target по умолчанию;
@@ -209,22 +245,31 @@
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 16-01-32.png"}
+	\caption{Вывод юнитов targets}
+\end{figure}
+\FloatBarrier
+
+\clearpage
+\begin{figure}[!htbp]
+	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 16-01-47.png"}
-	\caption{Вывод по заданию 7}
+	\caption{Вывод зависимостей для multi-user.target и graphical.target}
 \end{figure}
 \FloatBarrier
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\linewidth]{"Screenshot From 2026-10-05 16-02-07.png"}
-	\caption{Вывод по заданию 7}
+	\caption{Вывод доступных targets}
 \end{figure}
 \FloatBarrier
 
 Вопросы для отчета:
 \begin{enumerate}
 	\item \textit{В каком target работает ваша система сейчас?}\newline 
+	Определяется командой systemctl get-default (по умолчанию) или systemctl list-units --type=target --state=active
 	\item \textit{Какие сервисы есть в graphical.target, но отсутствуют в multi-user.target?}\newline 
+	Сравнение выводов systemctl list-dependencies graphical.target и multi-user.target; обычно display-manager.service (gdm и т.п.).
 	\item \textit{Как переключиться в текстовый режим (multi-user) без перезагрузки?}\newline 
 	Выполнить команду (с предупреждением о закрытии графических приложений): sudo systemctl isolate multi-user.target
 \end{enumerate}
@@ -233,7 +278,7 @@
 
 \ssr{Вывод}
 
-В ходе лабораторной работы были:
+В ходе практической работы были:
 \begin{itemize}
 	\item изучены этапы загрузки операционных систем семейства GNU/Linux;
 	\item освоены методы анализа процесса загрузки;

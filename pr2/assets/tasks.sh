@@ -34,8 +34,8 @@ uptime -s # время начала текущей загрузки
 who -b
 journalctl -b | less # все логи текущей загрузки
 # только сообщения ядра
-dmesg | head -30 # первые 30 строк
-dmesg | grep -i "error\|warn" # поиск ошибок/предупреждений
+sudo dmesg | head -30 # первые 30 строк
+sudo dmesg | grep -i "error\|warn" # поиск ошибок/предупреждений
 journalctl -b -p err # только логи с ошибками (приоритет err и выше)
 journalctl -b -u systemd-networkd # логи конкретного сервиса (например, network)
 journalctl -b | grep "Mount.*root" # момент монтирования корневой файловой системы в логах

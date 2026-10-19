@@ -40,10 +40,12 @@
 \renewcommand{\cftaftertoctitle}{\hfill\hspace*{0.5em}}
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 
+\setlength{\cftsecnumwidth}{5em}
+
 % listings
 
-\lstdefinestyle{python}{
-	language=Python,
+\lstdefinestyle{cpp}{
+	language=C,
 	basicstyle=\ttfamily\footnotesize,
 	keywordstyle=\color{blue},
 	stringstyle=\color{red},
@@ -60,8 +62,58 @@
 }
 
 \lstset{
-	style=python,
-	inputpath=dir/
+	style=cpp,
+	inputpath=assets/
+}
+
+\lstdefinestyle{text}{
+	basicstyle=\ttfamily\footnotesize,
+	keywordstyle=\color{black},
+	stringstyle=\color{gray},
+	commentstyle=\color{gray},
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	numbersep=5pt,
+	frame=single,
+	tabsize=4,
+	captionpos=b,
+	breaklines=true,
+	breakatwhitespace=true,
+	literate={_}{{\textunderscore}}1
+}
+\lstset{
+	style=text,
+	inputpath=assets/
+}
+
+\lstdefinestyle{yaml}{
+	language={},
+	basicstyle=\ttfamily\footnotesize,
+	morekeywords={Unit,Service,Install,Timer,
+		Description,After,Before,Requires,Wants,
+		Type,ExecStart,ExecStartPre,ExecStartPost,
+		ExecStop,User,Group,Restart,RestartSec,
+		WantedBy,RequiredBy,
+		OnCalendar,AccuracySec,Persistent,Unit},
+	keywordstyle=\color{blue}\bfseries,
+	morecomment=[l]{\#},
+	commentstyle=\color{gray}\itshape,
+	alsoletter={=},
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	numbersep=5pt,
+	frame=single,
+	tabsize=4,
+	captionpos=b,
+	breaklines=true,
+	breakatwhitespace=true,
+	showstringspaces=false,
+}
+\lstset{
+	style=yaml,
+	inputpath=assets/
 }
 
 % graphics 
@@ -181,6 +233,8 @@
 	\addcontentsline{toc}{section}{#1}
 	\markboth{#1}{#1}
 }
+
+\renewcommand{\thesection}{Задание \arabic{section}.}
 
 \newcommand{\floor}[1]{
 	\lfloor #1 \rfloor
