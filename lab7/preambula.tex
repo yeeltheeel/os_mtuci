@@ -44,7 +44,7 @@
 
 % listings
 
-\lstdefinestyle{cpp}{
+\lstdefinestyle{cstyle}{
 	language=C,
 	basicstyle=\ttfamily\footnotesize,
 	keywordstyle=\color{blue},
@@ -62,7 +62,7 @@
 }
 
 \lstset{
-	style=cpp,
+	style=cstyle,
 	inputpath=assets/
 }
 
@@ -84,35 +84,6 @@
 }
 \lstset{
 	style=text,
-	inputpath=assets/
-}
-
-\lstdefinestyle{yaml}{
-	language={},
-	basicstyle=\ttfamily\footnotesize,
-	morekeywords={Unit,Service,Install,Timer,
-		Description,After,Before,Requires,Wants,
-		Type,ExecStart,ExecStartPre,ExecStartPost,
-		ExecStop,User,Group,Restart,RestartSec,
-		WantedBy,RequiredBy,
-		OnCalendar,AccuracySec,Persistent,Unit},
-	keywordstyle=\color{blue}\bfseries,
-	morecomment=[l]{\#},
-	commentstyle=\color{gray}\itshape,
-	alsoletter={=},
-	numbers=left,
-	numberstyle=\tiny,
-	stepnumber=1,
-	numbersep=5pt,
-	frame=single,
-	tabsize=4,
-	captionpos=b,
-	breaklines=true,
-	breakatwhitespace=true,
-	showstringspaces=false,
-}
-\lstset{
-	style=yaml,
 	inputpath=assets/
 }
 

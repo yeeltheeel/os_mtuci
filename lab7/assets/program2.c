@@ -9,15 +9,15 @@ int main(){
 		pid = fork();
 		if (pid == 0){
 			prinf(
-				"child_pid=%d with parent_pid=%d\n", 
-				getpid(), 
-				getppid()
+				"child_uid=%d with parent_uid=%d\n", 
+				getuid(), 
+				geteuid()
 			);
 		}
 		else if (pid > 0){
 			prinf(
-				"parent with pid=%d\n", 
-				getpid()
+				"parent with uid=%d\n", 
+				getuid()
 			);
 		}
 		else {
