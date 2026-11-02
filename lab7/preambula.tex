@@ -19,6 +19,7 @@
 \usepackage{pgfplots}
 \usepackage{tikz}
 \usepackage{hyperref}
+\usepackage{fancyvrb}
 
 % general formatting
 
@@ -50,6 +51,7 @@
 	keywordstyle=\color{blue},
 	stringstyle=\color{red},
 	commentstyle=\color{gray},
+	numberstyle=\color{red},
 	numbers=left,
 	numberstyle=\tiny,
 	stepnumber=1,
@@ -63,27 +65,6 @@
 
 \lstset{
 	style=cstyle,
-	inputpath=assets/
-}
-
-\lstdefinestyle{text}{
-	basicstyle=\ttfamily\footnotesize,
-	keywordstyle=\color{black},
-	stringstyle=\color{gray},
-	commentstyle=\color{gray},
-	numbers=left,
-	numberstyle=\tiny,
-	stepnumber=1,
-	numbersep=5pt,
-	frame=single,
-	tabsize=4,
-	captionpos=b,
-	breaklines=true,
-	breakatwhitespace=true,
-	literate={_}{{\textunderscore}}1
-}
-\lstset{
-	style=text,
 	inputpath=assets/
 }
 

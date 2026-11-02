@@ -1,36 +1,58 @@
+#define _GNU_SOURCE
 #include <stdio.h> 
+#include <stdlib.h>
 #include <unistd.h>
+#include <pthread.h>
+#include <time.h>
+#include <errno.h>
 
-int main(){
-	pid_t pid;
-	pid_t child_pid[2];
+void *thread_task(void *arg){
+	(void)arg;
+	time_t now = time(NULL);
+	struct tm tm_buf;
+	struct tm *tm = localtime_r(&now, &tm_buf);
 
-	for (int i=0; i < 2; i++){
-		pid = fork();
-		if (pid == 0){
-			prinf(
-				"child_uid=%d with parent_uid=%d\n", 
-				getuid(), 
-				geteuid()
-			);
-		}
-		else if (pid > 0){
-			prinf(
-				"parent with uid=%d\n", 
-				getuid()
-			);
-		}
-		else {
-			prinf("error: no child created\n")
+	printf(
+		"child with uid=%d, tid=%d and ppid=%d [%02d:%02d:%02d]\n", 
+		getuid(), 
+		gettid(),
+		getppid(),
+		tm->tm_hour, tm->tm_min, tm->tm_sec
+	);
+	fflush(stdout);
+
+	return NULL;
+}
+
+int main(void){
+	pthread_t child_thread[2] = {0, 0};
+
+	time_t now = time(NULL);
+	struct tm tm_buf;
+	struct tm *tm = localtime_r(&now, &tm_buf);
+
+	printf(
+		"parent with uid=%d, tid=%d and ppid=%d [%02d:%02d:%02d]\n", 
+		getuid(),
+		gettid(),
+		getppid(),
+		tm->tm_hour, tm->tm_min, tm->tm_sec
+	);
+	fflush(stdout);
+
+	int status;
+	for (int i = 0; i < 2; i++){
+		status = pthread_create(&child_thread[i], NULL, thread_task, "child task");
+		if (status != 0){
+			errno = status;
+            perror("pthread_create");
+            exit(1);
 		}
 	}
 
-	int status = 1;
-	while (status){
-		for (int i=0; i < 2; i++){
-			waitpid(child_pid[i], &status);
-		} 
+	for (int i = 0; i < 2; i++){
+		pthread_join(child_thread[i], NULL);
 	}
 
-	return 0
+	return 0;
 }
