@@ -1,0 +1,9 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{Введение}{3}{chapter*.1}%
+\contentsline {chapter}{Выполнение}{4}{chapter*.2}%
+\contentsline {section}{Задание 1. Получение карты виртуальной памяти процесса}{4}{section*.3}%
+\contentsline {section}{Задание 2. Настройка файла подкачки}{4}{figure.caption.4}%
+\contentsline {section}{Задание 3. Тестирование памяти}{4}{figure.caption.8}%
+\contentsline {section}{Дополнительное задание}{4}{figure.caption.9}%
+\contentsline {chapter}{Вывод}{5}{chapter*.11}%
+\contentsline {chapter}{Контрольные вопросы}{6}{chapter*.12}%

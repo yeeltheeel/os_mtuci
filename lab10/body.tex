@@ -1,0 +1,101 @@
+\ssr{Введение}
+
+Цели данной лабораторной работы:
+\begin{enumerate}
+	\item изучить основные методы управления памятью в Linux;
+	\item построить карту виртуальной памяти процесса;
+	\item приобрести практические навыки работы с инструментами мониторинга использования памяти, настройки параметров виртуальной памяти, тестирования работоспособности оперативной памяти.
+\end{enumerate}
+
+\ssr{Выполнение}
+
+\ssection{Задание 1. Получение карты виртуальной памяти процесса}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Полученная карта}
+\end{figure}
+\FloatBarrier
+
+\ssection{Задание 2. Настройка файла подкачки}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Текущее использование памяти}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Создание и подключение файла подкачки}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Проверка}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Деактивация файла подкачки}
+\end{figure}
+\FloatBarrier
+
+\ssection{Задание 3. Тестирование памяти}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Процесс и результаты тестирования}
+\end{figure}
+\FloatBarrier
+
+\ssection{Дополнительное задание}
+
+\begin{figure}[!htbp]
+	\centering
+	%\includegraphics[width=0.6\linewidth]{""}
+	\caption{Значение параметра swappiness}
+\end{figure}
+\FloatBarrier
+
+\ssr{Вывод}
+
+В ходе лабораторной работы были:  
+\begin{itemize}
+	\item изучены основные методы управления памятью в Linux;
+	\item построена карта виртуальной памяти процесса;
+	\item приобретены практические навыки работы с инструментами мониторинга использования памяти, настройки параметров виртуальной памяти, тестирования работоспособности оперативной памяти.
+\end{itemize}
+
+\ssr{Контрольные вопросы}
+
+\begin{enumerate}
+	\item \textit{Какие задачи решает подсистема управления памятью?}\newline 
+	
+	\item \textit{Какой модуль занимается пересчетом виртуальных адресов в физические? Какие данные для работы модуля формирует ОС?}\newline 
+	
+	\item \textit{Что такое виртуальная память? Каковы преимущества использования ВАП по сравнению с работой с физическими адресами напрямую?}\newline 
+	
+	\item \textit{Какие адреса отображаются в карте ВАП?}\newline 
+	
+	\item \textit{Что такое файл подкачки? Как он используется?}\newline 
+	
+	\item \textit{Какая информация содержится в файле /etc/fstab?}\newline 
+	
+	\item \textit{Для чего используется утилита memtester?}\newline 
+	
+	\item \textit{Если при выполнении команды mkswap в качестве параметра передан файл размером 2Gb с разрешениями 777, что будет выведено в терминал?}\newline 
+	
+	\item \textit{В чем разница между файлом подкачки и разделом подкачки?}\newline 
+	
+	\item \textit{Как можно посмотреть количество свободной физической памяти? Приведите варианты команд.}\newline 
+	
+\end{enumerate}
