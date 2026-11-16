@@ -1,6 +1,6 @@
-/ubuntu
-.aux
-.out
-.log
-.synctex.gz
-.toc
+ubuntu/
+*.aux
+*.out
+*.log
+*.synctex.gz
+*.toc

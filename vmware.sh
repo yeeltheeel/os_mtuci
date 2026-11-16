@@ -10,4 +10,6 @@ sudo nano /etc/fstab
 sudo mount -a
 ls -la /mnt/hgfs
 
+ln -s /mnt/hgfs/my_ubuntu ~/Desktop
+
 
