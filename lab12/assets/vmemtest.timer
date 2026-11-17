@@ -1,0 +1,11 @@
+[Unit]
+Description=Run vmemtest script every 30 seconds
+
+[Timer]
+OnBootSec=10s
+OnUnitInactiveSec=30s
+AccuracySec=1s
+Unit=vmemtest.service
+
+[Install]
+WantedBy=timers.target

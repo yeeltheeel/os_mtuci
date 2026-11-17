@@ -1,0 +1,6 @@
+[Unit]
+Description=Collect pmap memory map for memtest process
+
+[Service]
+Type=oneshot
+ExecStart=/home/elanskaya/Documents.sh
