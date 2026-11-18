@@ -1,0 +1,29 @@
+6860:   ./memtest p1
+Address           Kbytes     RSS   Dirty Mode  Mapping
+00005ae2447b2000       4       4       0 r---- memtest
+00005ae2447b3000       4       4       0 r-x-- memtest
+00005ae2447b4000       4       4       0 r---- memtest
+00005ae2447b5000       4       4       4 r---- memtest
+00005ae2447b6000       4       4       4 rw--- memtest
+00005ae25e254000     248     244     244 rw---   [ anon ]
+00007a916ee00000     160     160       0 r---- libc.so.6
+00007a916ee28000    1632    1184       0 r-x-- libc.so.6
+00007a916efc0000     312     184       0 r---- libc.so.6
+00007a916f00e000      16      16      16 r---- libc.so.6
+00007a916f012000       8       8       8 rw--- libc.so.6
+00007a916f014000      52      20      20 rw---   [ anon ]
+00007a916f176000      12       8       8 rw---   [ anon ]
+00007a916f18a000       8       4       4 rw---   [ anon ]
+00007a916f18c000      16       0       0 r----   [ anon ]
+00007a916f190000       8       0       0 r----   [ anon ]
+00007a916f192000       8       8       0 r-x--   [ anon ]
+00007a916f194000       4       4       0 r---- ld-linux-x86-64.so.2
+00007a916f195000     188     188       0 r-x-- ld-linux-x86-64.so.2
+00007a916f1c4000      44      44       0 r---- ld-linux-x86-64.so.2
+00007a916f1cf000       8       8       8 r---- ld-linux-x86-64.so.2
+00007a916f1d1000       4       4       4 rw--- ld-linux-x86-64.so.2
+00007a916f1d2000       4       4       4 rw---   [ anon ]
+00007fff73ac1000     132      12      12 rw---   [ stack ]
+ffffffffff600000       4       0       0 --x--   [ anon ]
+---------------- ------- ------- ------- 
+total kB            2888    2120     336

@@ -4,10 +4,21 @@ set -uo pipefail
 MAP_DIR="/var/log/my_mem_maps"
 mkdir -p "$MAP_DIR"
 
-gcc -O2 -Wall -Wextra -o memtest program.c
+TARGET="memtest"
+SRC="program.c"
 
-./memtest p1 & PID1=$!
-./memtest p2 & PID2=$!
+if [[ ! -x "$TARGET" ]]; then
+    echo ">>> $TARGET not found, building from $SRC"
+    gcc -O2 -Wall -Wextra -o "$TARGET" "$SRC" || { echo "build failed" >&2; exit 1; }
+elif [[ "$SRC" -nt "$TARGET" ]]; then
+    echo ">>> $SRC is newer than $TARGET, rebuilding"
+    gcc -O2 -Wall -Wextra -o "$TARGET" "$SRC" || { echo "rebuild failed" >&2; exit 1; }
+else
+    echo ">>> $TARGET is up to date, skipping build"
+fi
+
+./"$TARGET" p1 & PID1=$!
+./"$TARGET" p2 & PID2=$!
 
 sleep 5
 

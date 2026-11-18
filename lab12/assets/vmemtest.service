@@ -1,6 +1,7 @@
 [Unit]
-Description=Collect pmap memory map for memtest process
+Description=Collect pmap for vmemtest process
 
 [Service]
 Type=oneshot
-ExecStart=/home/elanskaya/Documents.sh
+WorkingDirectory=/home/elanskaya/Documents
+ExecStart=/home/elanskaya/Documents/vmem.sh
